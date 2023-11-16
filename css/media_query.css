@@ -1,0 +1,145 @@
+@charset "utf-8";
+@media screen and (max-width: 1920px) {
+  body {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+  }
+  .info1 img {
+    width: 90%;
+    padding-left: 50px;
+  }
+  .info2 img {
+    width: 150%;
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hamburger_btn {
+    display: block;
+  }
+  #main_menu > li {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .info1 img {
+    width: 130%;
+    position: relative;
+    top: -130px;
+    left: -80px;
+  }
+  .info2 img {
+    width: 190%;
+    position: relative;
+    top: -130px;
+    left: -80px;
+  }
+  .small_slideshow {
+    margin-top: 50px;
+  }
+  .slide_wrapper {
+    width: 80%;
+  }
+  .controls {
+    top: 50%;
+  }
+  .tab_menu-header {
+    width: 70%;
+    height: auto;
+  }
+  .tab_menu {
+    margin-top: 50px;
+  }
+  .tab_menu-header .inner .tabs_nav {
+    flex-wrap: wrap;
+  }
+  .tab_menu-header .inner .tabs_nav li {
+    width: 50%;
+  }
+  .tab_menu-body {
+    width: 70%;
+  }
+  .image-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image-wrapper ul li {
+    width: 48%;
+    height: 90%;
+  }
+
+  .animated_section {
+    display: none;
+  }
+  footer {
+    margin-top: 450px;
+  }
+  .footer_inner {
+    width: 100%;
+  }
+  .footer_inner-row img {
+    display: none;
+  }
+  .footer_menulist {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    left: 180px;
+    top: 50px;
+  }
+  .left {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .info1 img {
+    width: 200%;
+    position: relative;
+    top: -250px;
+    left: -150px;
+  }
+  .info2 img {
+    width: 250%;
+    position: relative;
+    top: -300px;
+    left: -110px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .info1 img {
+    width: 200%;
+    position: relative;
+    top: -400px;
+    left: -120px;
+  }
+  .info2 img {
+    width: 300%;
+    position: relative;
+    top: -480px;
+    left: -110px;
+  }
+  .small_slideshow {
+    position: relative;
+    top: -350px;
+  }
+  .controls {
+    top: 30%;
+  }
+  .tab_menu {
+    position: relative;
+    top: -450px;
+  }
+  footer {
+    margin-top: 0;
+    padding-bottom: 100px;
+  }
+  .footer_menulist {
+    left: 80px;
+  }
+}
